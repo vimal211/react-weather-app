@@ -159,8 +159,8 @@ class App extends React.Component {
             change={this.handleInputChange}
             submit={this.handleSearchCity}
           />
-          {/* {weatherInfo && <Result weather={weatherInfo} />}
-          {error && <NotFound error={error} />} */}
+          {weatherInfo && <Result weather={weatherInfo} />}
+          {error && <NotFound error={error} />}
         </WeatherWrapper>
       </div>
     );
